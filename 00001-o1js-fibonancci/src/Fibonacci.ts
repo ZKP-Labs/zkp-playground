@@ -23,7 +23,7 @@ export class Fibonacci extends SmartContract {
       a = b;
       b = t;
     }
-    this.a.set(t);
-    this.b.set(a.add(b));
+    this.a.set(a);
+    this.b.set(b);
   }
 }
